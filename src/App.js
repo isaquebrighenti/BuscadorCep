@@ -47,9 +47,7 @@ function App() {
           <h2>CEP: {cep.cep}</h2>
 
           <span>{cep.logradouro}</span>
-          {Object.keys(cep.complemento) > 0 && (
-            <span>Complemento: {cep.complemento}</span>
-          )}
+          <span>Complemento: {cep.complemento}</span>
           <span>Bairro: {cep.bairro}</span>
           <span>{cep.localidade} - {cep.uf}</span>
         </main>
